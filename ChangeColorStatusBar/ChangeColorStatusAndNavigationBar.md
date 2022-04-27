@@ -33,27 +33,28 @@ Public Sub StatusBarColor(color As Int)
         
     Dim view As JavaObject = window.RunMethodJO("getDecorView",Null)
 
+    'Light style with black icons and text
     ' حالت لایت نوشته ها مشکی
-    view.RunMethod("setSystemUiVisibility",Array(Bit.Or(0x00002000,view.RunMethod("getSystemUiVisibility",Null)))) 'Light style with black icons and text
+    view.RunMethod("setSystemUiVisibility",Array(Bit.Or(0x00002000,view.RunMethod("getSystemUiVisibility",Null)))) 
     ' حالت دارک نوشته ها سفید
     '  view.RunMethod("setSystemUiVisibility",Array(0)) 'Dark style with White icons and text
 End Sub
+
+Sub color_status
+    ChangeColor(Colors.RGB(255,255,255))
+End Sub
 ```
 
-* use static:
+* use just one Activity:
 
 ```b4a
 ChangeColor(Colors.RGB(255,255,255))
 ```
 
-* use dynamic:
+* use all Activity:
 
 ```b4a
-Sub color_status
-    ChangeColor(Colors.RGB(255,255,255))
-End Sub
-
-use activity color_status
+color_status
 ```
 
 [hp](http://hemmatpoor.ir)
