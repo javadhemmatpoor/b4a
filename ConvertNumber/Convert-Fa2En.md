@@ -1,13 +1,13 @@
-# Convert English Number To Persian Number
+# Convert Persian Number To English Number
 
-* function en2fa:
+* function fa2en:
 
 ```basic4android
-Sub en2fa(a As String) As String
-    ' تبدیل اعداد لاتین به فارسی
+Sub fa2en(a As String) As String
+    ' تبدیل اعداد فارسی به لاتین
     Dim fa As String="۰۱۲۳۴۵۶۷۸۹"
     For la=0 To 9
-        a=a.Replace(la,fa.SubString2(la,la+1))
+        a=a.Replace(fa.SubString2(la,la+1),la)
     Next
     Return a
 End Sub
@@ -16,13 +16,13 @@ End Sub
 * use:
 
 ```b4a
-entfa(123000000)
+fa2en(۱۲۳)
 ```
 
 * exit
 
 ```log
-    ۱۲۳,۰۰۰,۰۰۰
+    123
 ```
 
 [hp](http://hemmatpoor.ir)

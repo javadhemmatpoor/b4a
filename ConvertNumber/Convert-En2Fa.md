@@ -16,13 +16,13 @@ End Sub
 * use:
 
 ```b4a
-entfa(123000000)
+entfa(123)
 ```
 
 * exit
 
 ```log
-    ۱۲۳,۰۰۰,۰۰۰
+    ۱۲۳
 ```
 
 [hp](http://hemmatpoor.ir)

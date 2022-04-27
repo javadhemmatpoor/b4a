@@ -1,28 +1,35 @@
 # Convert English Number To Persian Number
 
-* function en2fa:
+* function PersianNumbers use replace Convert:
 
 ```basic4android
-Sub en2fa(a As String) As String
-    ' تبدیل اعداد لاتین به فارسی
-    Dim fa As String="۰۱۲۳۴۵۶۷۸۹"
-    For la=0 To 9
-        a=a.Replace(la,fa.SubString2(la,la+1))
-    Next
-    Return a
+Public Sub PersianNumbers(Text As String) As String
+    Dim s As String = Text
+    s = s.Replace("0","۰")
+    s = s.Replace("1","۱")
+    s = s.Replace("2","۲")
+    s = s.Replace("3","۳")
+    s = s.Replace("4","۴")
+    s = s.Replace("5","۵")
+    s = s.Replace("6","۶")
+    s = s.Replace("7","۷")
+    s = s.Replace("8","۸")
+    s = s.Replace("9","۹")
+
+    Return s
 End Sub
 ```
 
 * use:
 
 ```b4a
-entfa(123000000)
+PersianNumbers(123)
 ```
 
 * exit
 
 ```log
-    ۱۲۳,۰۰۰,۰۰۰
+    ۱۲۳
 ```
 
 [hp](http://hemmatpoor.ir)

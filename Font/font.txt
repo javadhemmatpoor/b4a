@@ -1,6 +1,0 @@
-' تغییر فونت اجزای برنامه
-Public Sub CS(text As String) As CSBuilder
-	Dim c As CSBuilder
-	c.Initialize.Typeface(Typeface.LoadFromAssets("Vazirmatn-Medium.ttf")).Append(text).PopAll
-	Return c
-End Sub
