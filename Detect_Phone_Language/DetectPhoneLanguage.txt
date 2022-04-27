@@ -1,0 +1,19 @@
+====================================================
+--------------- Detect Phone Language --------------
+====================================================
+
+• function:
+
+' تابع تشخیص زبان گوشی
+Sub GetLanguage As String
+	Dim r As Reflector
+	r.Target = r.RunStaticMethod("java.util.Locale", "getDefault", Null, Null)
+	Return r.RunMethod("getDisplayName")
+End Sub
+
+
+• use:
+
+	log(GetLanguage)
+
+	exit Code: English (United States)
