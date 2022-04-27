@@ -1,7 +1,7 @@
 # b4a
 code snippets basic4android
 
-```bash
+```b4a
 pip install foobar
 ```
 
