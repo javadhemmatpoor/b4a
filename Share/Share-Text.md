@@ -3,12 +3,12 @@
 * function Share Text Intent:
 
 ```basic4android
-Sub ShareTxt
+Sub ShareTxt(body as string,title as string)
     Dim x As Intent
     x.Initialize(x.ACTION_SEND,"")
     x.SetType("text/plain")
-    x.PutExtra("android.intent.extra.TEXT", "متن مورد نظر شما !")
-    x.WrapAsIntentChooser("اشتراک گذاری متن")
+    x.PutExtra("android.intent.extra.TEXT", body)
+    x.WrapAsIntentChooser(title)
     StartActivity(x)
 End Sub
 ```
@@ -16,7 +16,7 @@ End Sub
 * use:
 
 ```b4a
-ShareTxt
+ShareTxt("Mohtava","Subject")
 ```
 
 [hp](http://hemmatpoor.ir)
