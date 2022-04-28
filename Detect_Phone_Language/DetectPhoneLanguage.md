@@ -2,7 +2,7 @@
 
 * function GetLanguage:
 
-```basic4android
+```vb
 Sub GetLanguage As String
     ' تابع تشخیص زبان گوشی
     Dim r As Reflector
@@ -13,13 +13,13 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 log(GetLanguage)
 ```
 
 * exit
 
-```log
+```vb
     English (United States)
 ```
 

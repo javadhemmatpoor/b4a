@@ -2,7 +2,7 @@
 
 * function PersianNumbers use replace Convert:
 
-```basic4android
+```vb
 Public Sub PersianNumbers(Text As String) As String
     Dim s As String = Text
     s = s.Replace("0","۰")
@@ -22,13 +22,13 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 PersianNumbers(123)
 ```
 
 * exit
 
-```log
+```vb
     ۱۲۳
 ```
 

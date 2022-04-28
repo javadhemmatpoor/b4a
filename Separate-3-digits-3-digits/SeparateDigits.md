@@ -2,7 +2,7 @@
 
 * function ToCurrencyFormat:
 
-```basic4android
+```vb
 
 Sub ToCurrencyFormat(d As Double) As String
     ' تابع جداکردن اعداد 3 رقم 3 رقم
@@ -13,7 +13,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 ToCurrencyFormat(130000000)
 ```
 

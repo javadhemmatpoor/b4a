@@ -2,7 +2,7 @@
 
 * function ToCurrencyFormat:
 
-```basic4android
+```vb
 Sub CommaNumberSplit (Txt As String) As String
     ' تابع جداکردن اعداد 3 رقم 3 رقم
     Dim Str = Txt As String,counter = 0 As Int
@@ -25,7 +25,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 ToCurrencyFormat(130000000)
 ```
 

@@ -2,7 +2,7 @@
 
 * function CloseAllExit lib JavaObject:
 
-```basic4android
+```vb
 Public Sub CloseAllExit
     Dim jo As JavaObject
     jo.InitializeContext
@@ -12,7 +12,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 CloseAllExit
 ```
 

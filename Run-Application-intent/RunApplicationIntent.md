@@ -2,7 +2,7 @@
 
 * function run app instagram:
 
-```basic4android
+```vb
 Sub RunApp_Instagram
     Private i As Intent
     i.Initialize(i.ACTION_MAIN,"")
@@ -13,7 +13,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 RunApp_Instagram
 ```
 

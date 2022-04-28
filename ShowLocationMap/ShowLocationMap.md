@@ -2,7 +2,7 @@
 
 * function:
 
-```basic4android
+```vb
 Sub ShowLocation(number1 As Double, number2 As Double)
     Try
         Dim GMP As Intent
@@ -16,7 +16,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 ShowLocation(36.419503982415655,54.96498584747315)
 ```
 

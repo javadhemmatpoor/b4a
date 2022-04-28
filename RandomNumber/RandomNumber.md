@@ -6,13 +6,13 @@
 
 ایجاد عدد تصادفی بین 0 تا 255
 
-```basic4android
+```vb
 Rnd(0,255)
 ```
 
 * example color Random:
 
-```b4a
+```vb
 Dim r As Int = Rnd(0,255)
 Dim g As Int = Rnd(0,255)
 Dim b As Int = Rnd(0,255)

@@ -2,7 +2,7 @@
 
 * function Share Text Intent:
 
-```basic4android
+```vb
 Sub ShareTxt(body as string,title as string)
     Dim x As Intent
     x.Initialize(x.ACTION_SEND,"")
@@ -15,7 +15,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 ShareTxt("Mohtava","Subject")
 ```
 

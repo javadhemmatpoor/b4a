@@ -2,7 +2,7 @@
 
 * function open url browser:
 
-```basic4android
+```vb
 Sub OpenUrl(Url As String)
     Private i As Intent
     i.Initialize(i.ACTION_VIEW,Url)
@@ -12,7 +12,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 OpenUrl("https://google.com")
 ```
 

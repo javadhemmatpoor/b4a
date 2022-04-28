@@ -2,7 +2,7 @@
 
 * function en2fa:
 
-```basic4android
+```vb
 Sub en2fa(a As String) As String
     ' تبدیل اعداد لاتین به فارسی
     Dim fa As String="۰۱۲۳۴۵۶۷۸۹"
@@ -15,13 +15,13 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 entfa(123)
 ```
 
 * exit
 
-```log
+```vb
     ۱۲۳
 ```
 

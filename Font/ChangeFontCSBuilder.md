@@ -2,7 +2,7 @@
 
 * function CSBuilder:
 
-```basic4android
+```vb
 Public Sub CS(text As String) As CSBuilder
     ' تغییر فونت اجزای برنامه
     Dim c As CSBuilder
@@ -13,7 +13,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 toastmessage(cs("testFont"),False)
 ```
 

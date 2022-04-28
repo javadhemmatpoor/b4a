@@ -20,7 +20,7 @@ public void link(TextView LaeblName){
 
 * use:
 
-```b4a
+```vb
 Dim j As JavaObject
 j.InitializeContext
 j.RunMethod("link",Array(label1))

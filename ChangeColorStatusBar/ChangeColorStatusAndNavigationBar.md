@@ -2,7 +2,7 @@
 
 * function ChangeColor:
 
-```basic4android
+```vb
 Public Sub ChangeColor(color As Int)
     ' تغییر رنگ استاتوس بار و نویگیشن بار باهم
     Dim p As Phone
@@ -47,13 +47,13 @@ End Sub
 
 * use just one Activity:
 
-```b4a
+```vb
 ChangeColor(Colors.RGB(255,255,255))
 ```
 
 * use all Activity:
 
-```b4a
+```vb
 color_status
 ```
 

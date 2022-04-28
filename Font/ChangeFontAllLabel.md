@@ -2,7 +2,7 @@
 
 * function Change Font Label:
 
-```basic4android
+```vb
 Public Sub ChangeFont_Label
     For Each v As View In Activity.GetAllViewsRecursive
         If v Is Label Then
@@ -15,7 +15,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 ChangeFont_Label
 ```
 

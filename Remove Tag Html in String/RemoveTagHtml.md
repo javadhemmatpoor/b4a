@@ -16,7 +16,7 @@ public static String html2text(String html) {
 
 * use:
 
-```b4a
+```vb
 Dim st1 As String = "<html><p>Hello World !</p></html>"
 Dim j As JavaObject
 j.InitializeContext
@@ -27,7 +27,7 @@ Label1.Text = j.RunMethod("html2text",Array As Object(st1))
 
 * exit
 
-```b4a
+```vb
 before: <html><p>Hello World !</p></html>
 
 after:  Hello World !

@@ -2,7 +2,7 @@
 
 * function Check Install Appliction:
 
-```basic4android
+```vb
 Sub CheckInstall(pakageName As String)
     Dim pm As PackageManager ,i As Intent
     i = pm.GetApplicationIntent(pakageName)
@@ -16,7 +16,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 CheckInstall("pakage.name.app")
 ```
 

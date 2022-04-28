@@ -2,7 +2,7 @@
 
 * function open Video MXPlayer:
 
-```basic4android
+```vb
 Sub MXPlayer(VideoAddress As String)
     Dim i As Intent
     i.Initialize(i.ACTION_VIEW,VideoAddress)
@@ -13,7 +13,7 @@ End Sub
 
 * use:
 
-```b4a
+```vb
 ' Offline:
 MXPlayer(File.Combine(File.DirRootExternal,"BasicLearn.mp4"))
 
